@@ -49,3 +49,7 @@ Surface Recombination Velocity: A measure of the rate of recombination between e
 Reference:
 [1]: http://www.superstrate.net/pv/limit/tandem.html
 [2]: http://encyclopedia2.thefreedictionary.com/surface+recombination+velocity
+
+Other:
+http://www.sciencedirect.com/science/article/pii/S2215098615000245
+http://science.nasa.gov/science-news/science-at-nasa/2002/solarcells/

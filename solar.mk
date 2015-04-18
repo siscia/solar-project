@@ -17,7 +17,7 @@ Any layer is composed of the following:
 
 Windows: Used to reduce the surface recombination velocity.
 
-BSF: Used to reduce the scattring of carriers towards the tunnel junction.
+BSF: Used to reduce the scattering of carriers towards the tunnel junction.
 
 # How to compose the different layer:
 
@@ -53,3 +53,4 @@ Reference:
 Other:
 http://www.sciencedirect.com/science/article/pii/S2215098615000245
 http://science.nasa.gov/science-news/science-at-nasa/2002/solarcells/
+http://pvcdrom.pveducation.org/DESIGN/SURF_MIN.HTM

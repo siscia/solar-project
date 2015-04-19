@@ -33,22 +33,24 @@ The problem of different current in different cell is avoided by design, but, as
 
 The rest of the techinical exploration will so focus on the monolythich multijucntion cell.
 
-## Basic stuff
+## Techinical exploration of a multijunction monolythic solar cell.
 
-Upper layer need to absorb the more energetic wavelength.
-
-Up to four layer or cell.
-
-Any layer is composed of the following:
+A single layer of every monolythic solar cell consist of:
 
 1. Windows
 2. Emitter
 3. Base
-4. BSF (Back Surface field)
+4. Back Surface Field (BSF)
+
+Also a tunnel junction is used to connect the different layers.
 
 ## Component:
 
-Windows: Used to reduce the surface recombination velocity.
+As in a normal junction the light is converted into electricity in the pn-junction between the emitter (2) and the base (3) and we are not focus again on such point.
+
+### Windows and Back Surface Field
+
+The windows is  Used to reduce the surface recombination velocity.
 
 BSF: Used to reduce the scattering of carriers towards the tunnel junction.
 

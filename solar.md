@@ -11,7 +11,7 @@ Specifically we are going to address how to let the energy penetrate between the
 
 Light of specific wavelength does not interact with material that are not multiple of that wavelength, this property is exploited to let light penetrate the first layer of a multijunction cell down to the last layers.
 
-Absorb the light in the most efficient way is only a matter of choose what wavelength absorb first, if we absorb first the light of wavelenght 2*n the junction of wavelenght n won't absorb anything.
+Absorb the light in the most efficient way is only a matter of choose what wavelength absorb first, if we absorb first the light of wavelength 2*n the junction of wavelength n won't absorb anything.
 
 The junctions that absorb the smaller wavelength are stacked on top of the junctions with bigger wavelength.
 
@@ -23,11 +23,11 @@ To address this problem two main design emerged, the monolithic multijunction an
 
 #### Monolithic
 
-In a monolithic multijunction the different layer are stacked directly one on top of the other, and the current flow between the different cell in serie.
+In a monolithic multijunction the different layer are stacked directly one on top of the other, and the current flow between the different cell in series.
 
 If a junction produce the wrong current it will act as load, heating the multijunction cell itself, heading to a loose of efficiency, and consuming power directly.
 
-For this reason the single junctions must be carefully tuned to produce the right ammount of current with the expected inlumination, the junction are tuned modifing slightly the dope ammount.
+For this reason the single junctions must be carefully tuned to produce the right amount of current with the expected illumination, the junction are tuned modifying slightly the dope amount.
 
 #### Stacked
 
@@ -58,18 +58,24 @@ Either component are used to avoid losses by recombination.
 
 The windows is used to reduce the surface recombination velocity.
 
-BSF: Used to reduce the scattering of carriers towards the tunnel junction.
+While the BSF is used to reduce the scattering of carriers towards the tunnel junction.
 
-# How to compose the different layer:
+### Tunnel Junction
 
-## Focus on the Monolithic type.
+A tunnel junction is a very high doped pn-junction, it serve two main purpose:
 
-Necessity of the tunnel junction.
+#### Junctions Isolation
 
+The tunnel junction isolate the p-region from the top cell from the n-region of the bottom cell.
 
-Definition to take care of:
+Without such isolation we will have an inverse junction between the different layers and the photo-voltage will drop significantly.
 
-Tunnel Junction: pn-junction of extremely high doped material, the bandgap between the two region is extremely low, almost no power loss.
+#### Tunnel Effect
+
+Thanks to the high dopage the bandgap between the two region of the tunnel junction is extremelly low, this let the electrons pass, practically undisturbed between the different layers thanks to the tunnel effect.
+
+Using the tunnel effect we achieve a contact between the different layer without practical power loss.
+
 
 Surface Recombination Velocity: A measure of the rate of recombination between electrons and holes at the surface of a semiconductor, equal to the component of the electron or hole current density normal to the surface divided by the excess electron or hole volume charge density close to the surface. [2]
 

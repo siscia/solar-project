@@ -1,7 +1,7 @@
 
-Multijunction cell are made of different layers, usually between 2 and 4.
+With multijunction cell we defined a solar cell composed of more than one single pn-junction, usually between 2 and 4.
 
-Any layer is a simpler pn-junction that works as a normal, single junction cell.
+Any pn-junction is stacked on top of the other and works as a normal, single junction cell.
 
 Of course, several problem arise when we stack different junction on each other.
 
@@ -9,33 +9,37 @@ Specifically we are going to address how to let the energy penetrate between the
 
 ### Light Penetration
 
-Light of specific wavelength does not interact with material that are not muliple of that wavelenght, this property is exploited to let light penetrate the first layer of a multijucntion cell down to the last layers.
+Light of specific wavelength does not interact with material that are not multiple of that wavelength, this property is exploited to let light penetrate the first layer of a multijunction cell down to the last layers.
 
-To let the light be absorbed in the most efficient way the material with the smaller wavelength are stacked on top.
+Absorb the light in the most efficient way is only a matter of choose what wavelength absorb first, if we absorb first the light of wavelenght 2*n the junction of wavelenght n won't absorb anything.
+
+The junctions that absorb the smaller wavelength are stacked on top of the junctions with bigger wavelength.
 
 ### Current Flow
 
-As any other component the pn-junction need to obey to Kirckchoof law, this means that the current that flow into a junction must be the same that flow out of the junction.
+As any other component the pn-junction need to obey to the Kirchhoff laws, this means that the current that flow into a junction must be the same that flow out of the junction.
 
-To address this problem two main design emerged, the monolythich multijucntion and the stacked multijunction.
+To address this problem two main design emerged, the monolithic multijunction and the stacked multijunction.
 
-#### Monolythich
+#### Monolithic
 
-In a monolythich multijunction the different layer are stacked directly one on top of the other, and the current produce by any single layer must be extremely well tuned.
+In a monolithic multijunction the different layer are stacked directly one on top of the other, and the current flow between the different cell in serie.
 
-If a junction produce the wrong current it will act as load, heating the multijucntion cell itself, heading to a loose of efficiency, and consuming power directly.
+If a junction produce the wrong current it will act as load, heating the multijunction cell itself, heading to a loose of efficiency, and consuming power directly.
+
+For this reason the single junctions must be carefully tuned to produce the right ammount of current with the expected inlumination, the junction are tuned modifing slightly the dope ammount.
 
 #### Stacked
 
-In a stacked multijucntion cell the different layers are completely isolated.
+In a stacked multijunction cell the different layers are completely isolated from each other.
 
-The problem of different current in different cell is avoided by design, but, as tradeoff, such cell required trasparent conctacts that are not ready yet.
+The problem of different current in different cell is avoided by design, but, as trade-off, such cell required transparent contacts that are still not easy to produce.
 
-The rest of the techinical exploration will so focus on the monolythich multijucntion cell.
+The rest of the technical exploration will so focus on the monolithic multijunction cell.
 
-## Techinical exploration of a multijunction monolythic solar cell.
+## Technical exploration of a multijunction monolithic solar cell.
 
-A single layer of every monolythic solar cell consist of:
+A single layer of every monolithic solar cell consist of:
 
 1. Windows
 2. Emitter
@@ -50,25 +54,13 @@ As in a normal junction the light is converted into electricity in the pn-juncti
 
 ### Windows and Back Surface Field
 
-The windows is  Used to reduce the surface recombination velocity.
+Either component are used to avoid losses by recombination.
+
+The windows is used to reduce the surface recombination velocity.
 
 BSF: Used to reduce the scattering of carriers towards the tunnel junction.
 
 # How to compose the different layer:
-
-## Different kind of MJ [1]
-
-### Stacked:
-
-Completely isolated block, they required trasparent contact.
-
-Offer a better efficiency.
-
-### Monolithic
-
-Use tunnel junction to "link" the variuos block of the cell.
-
-Lower efficiency since the power output and corrent of the several block must be syncronized, otherwise a cell will act as a load.
 
 ## Focus on the Monolithic type.
 

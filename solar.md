@@ -31,32 +31,36 @@ In order to manage the different current that are produced by the different junc
 
 #### Monolithic
 
-In a monolithic multijunction the different layer are stacked directly one on top of the other, and the current flow between the different cell in series.
+In a monolithic multijunction the different layers are stacked directly one on top of the other, and the current flow between the different cell in series.
 
-If a junction produce the wrong current it will act as load, heating the multijunction cell itself, heading to a loose of efficiency, and consuming power directly.
+If a junction produce the wrong current, in order to obey to the Kirchhoff law, it will act as load, heating the multijunction cell itself, heading to a loose of efficiency, and consuming power directly.
 
-For this reason the single junctions must be carefully tuned to produce the right amount of current with the expected illumination, the junction are tuned modifying slightly the dope amount.
+For this reason the single junctions must be carefully tuned to produce the right amount of current, the junctions are tuned modifying slightly the dope amount.
 
 #### Stacked
 
-In a stacked multijunction cell the different layers are completely isolated from each other.
+Opposed to the monolithisc cell the stacked cell are composed of several different layers, but each layer is completely isolated from the others.
 
-The problem of different current in different cell is avoided by design, but, as trade-off, such cell required transparent contacts that are still not easy to produce.
+This design avoid completely the issues about the possible difference of current production in each cell, however, as trade off, the stacked cell required transparent contacts that are still not ready.
 
-The rest of the technical exploration will so focus on the monolithic multijunction cell.
+Because of the lack of transparent contacts the most widely developed and used multijucntion cell are the monolithic one, so the rest of the article will explore the implementation of such multijunction cells.
 
 ## Technical exploration of a multijunction monolithic solar cell.
 
-A single layer of every monolithic solar cell consist of:
+After a lot of interation in the design of multijucntion cells the modern multijucntion cell is composed of different, but extremely, similar layers.
+
+Every single layer of the monolithic solar cell consist of:
 
 1. Windows
 2. Emitter
 3. Base
 4. Back Surface Field (BSF)
 
-Also a tunnel junction is used to connect the different layers.
+A tunnel junction is used to connect the different layers.
 
-## Component:
+The layers are different because the different material that are used to compose the 4 components, every combination of materials is most appropriate to absorb a particular wavelength.
+
+## Components:
 
 As in a normal junction the light is converted into electricity in the pn-junction between the emitter (2) and the base (3) and we are not focus again on such point.
 

@@ -1,25 +1,33 @@
 
-With multijunction cell we defined a solar cell composed of more than one single pn-junction, usually between 2 and 4.
+Nowadays the most efficienc type of solar cell are the multijucntion cell.
 
-Any pn-junction is stacked on top of the other and works as a normal, single junction cell.
+Such photovoltaic cell are composed of more than one single pn-junction, usually between two and four different junction are used.
 
-Of course, several problem arise when we stack different junction on each other.
+Spatially the single pn-jucntion that compose a multijunction cell are stacked one on top of each other in order to capture as much as possible of the light frequencies.
 
-Specifically we are going to address how to let the energy penetrate between the first layers of a multijunction cell down to the last layer, and how to manage the current flow.
+However several problems arise when we stack different junction on each other.
+
+The two biggest constrain to the design of a multijunction cell are how to let the light penetrate down to the very last junction and how to handle the current generate by the different junctions.
 
 ### Light Penetration
 
-Light of specific wavelength does not interact with material that are not multiple of that wavelength, this property is exploited to let light penetrate the first layer of a multijunction cell down to the last layers.
+In order to obtain the higest efficiency out of a multijucntion cell it is necessary that every single junction will be irradiate by enough light in order to provide energy.
 
-Absorb the light in the most efficient way is only a matter of choose what wavelength absorb first, if we absorb first the light of wavelength 2*n the junction of wavelength n won't absorb anything.
+However, if we stack different cell on top of each other, our intution will suggest that only the first cell will be inradiate, while the next cell will be on the shadow of the top one.
 
-The junctions that absorb the smaller wavelength are stacked on top of the junctions with bigger wavelength.
+Fortunately, in contrats with our intuition, light of specific wavelength does not interact with material that are not multiple of that wavelength, this property is exploited to let light penetrate the first layer of a multijunction cell down to the last layers.
+
+Exploiting this property of light to absorb the light in the most efficient way means to choose what wavelength absorb first, if we absorb first the light of wavelength 2*n the junction of wavelength n won't be able to absorb anything.
+
+The junctions that absorb the smaller wavelength are so stacked on top of the junctions with bigger wavelength.
 
 ### Current Flow
 
-As any other component the pn-junction need to obey to the Kirchhoff laws, this means that the current that flow into a junction must be the same that flow out of the junction.
+Different pn-junction will provide different current, however, as any eletrical component, even the pn-junction need to obey the Kirchhoff law of current.
 
-To address this problem two main design emerged, the monolithic multijunction and the stacked multijunction.
+To obey to the Kirchhoff current law means that the current which flow into a pn-junction must be equal to the current that flow out from that same jucntion.
+
+In order to manage the different current that are produced by the different junction two main design emerge, the monolithic multijucntion and the stacked multijunction.
 
 #### Monolithic
 

@@ -86,7 +86,7 @@ Without such isolation we will have an inverse junction between the different la
 
 #### Tunnel Effect
 
-Thanks to the high level of doping of the tunnel junction the bandgap between the two region of the tunnel junction is extremely low, this let the electrons pass -- practically undisturbed -- between the different layers thanks to the tunnel effect.
+Because of the high level of doping of the tunnel junction the bandgap between the two region of the tunnel junction is extremely low, this let the electrons flow -- practically undisturbed -- between the different layers thanks to the tunnel effect.
 
 Using the tunnel effect we achieve a contact between the different layer without any practical power loss.
 

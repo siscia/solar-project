@@ -100,20 +100,16 @@ When a photon hits a piece of silicon, one of three things can happen:
 When a photon is absorbed in the semiconductor, it creates mobile electron-hole pairs. If a load is placed across the cell as a whole, these highly excited, non-thermal electrons will flow out of the p-type side into the n-type side, lose energy while moving through the external circuit, and then flow back into the p-type material where they can once again re-combine with the valence-band holes they left behind. This generates an electromotive force, and thus some of the light energy is converted into electric energy.
 
 \subsection {Circuital Model}
-%
-%\begin{wrapfigure}{l}{0.45\textwidth}
-%	\centering
-%	\includegraphics[width=0.45\textwidth]{img/601px-Solar_cell_equivalent_circuit.png}
-%	\caption{Solar cell equivalnet circuit}
-%\end{wrapfigure}
 
-\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{wrapfigure}{r}{0.4\textwidth}
 	\centering
-	\includegraphics[width=0.5\textwidth]{img/IV-ISC.png}
-	\caption{IV curve.}
+	\includegraphics[width=0.4\textwidth]{img/601px-Solar_cell_equivalent_circuit.png}
+	\caption{Solar cell equivalnet circuit}
+	\vspace{10pt}
 \end{wrapfigure}
 
 An ideal solar cell may be modeled by a current source in parallel with a diode but in practice no solar cell is ideal, so a shunt resistance and a series resistance component are added. \footnote{A shunt is a device which allows  electric current  to pass around another point in the  circuit  by creating a low resistance path.} The values of $I_{0}$, $R_{S}$, and $R_{SH}$ are dependent upon the physical size of the solar cell. In comparing otherwise identical cells, a cell with twice the surface area of another will have double the $I_{0}$ and half the $R_{S}$ and RSH. Indeed it has twice the junction area across which current can leak.
+
 
 
 \subsection{Parameters}
@@ -126,6 +122,13 @@ FF &= \frac{MaximunPower}{V_{oc}I_{sc}}  = \frac{I_{mp}V_{mp}}{V_{oc}I_{sc}} \\
 V_{oc} &= \text{Open Circuit Voltage} \\
 I_{sc} &= \text{Short Circuit Current} 
 \end{align}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\centering
+	\includegraphics[width=0.5\textwidth]{img/IV-ISC.png}
+	\caption{IV curve.}
+\end{wrapfigure}
+
 
 %
 %\begin{wrapfigure}{r}{0.6\textwidth}
@@ -223,7 +226,7 @@ Between the multi-junction cells the most common structure has three layers.
 	\centering
 	\includegraphics[width=0.45\textwidth]{img/1212LFW04f2.jpg}
 	\caption{Absorbed ligth spectrum.}
-	\vspace{-70pt}
+	%\vspace{-50pt}
 \end{wrapfigure}
 
 To choose the best combination of semiconductor materials for a triple junction, we look at the frequency specifications. Specifications which led to use Indium Gallium Phosphide (InGaP) for the top layer, Gallium Arsenide for the middle layer, and Germanium for the bottom one. 
@@ -261,18 +264,17 @@ The cost competiveness of an energy producing technology is often rated by the l
 
 III-V multi-junction solar  cells  are essentially more expensive than conventional Silicon-based solar cell technologies on the same cell area. In fact, the price of typical GaAs or Ge wafers is more or less a hundred times the one for a Silicon wafer. This means that even if their efficiency is about twice as high, III-V multi-junction solar cells are currently too expensive to be used in flat-plate modules on Earth.   However, large-area III-V multi-junction solar cells are nowadays standard in space applications as the major cost measure are €/kg rather than €/Wp. This is due to the high launch costs and the importance of spacecraft attitude control. Besides cost aspects III-V multi-junction solar cells  are  also  particularly  suitable  for  the  need  in  space  due  to  their  radiation  hardness,  small temperature coefficients, high reliability and the combination of high voltage and low current. In fact the development and continuous improvement of III-V multi-junction solar cells has been driven by the relatively stable space market for a long time.  
 
-\begin{wrapfigure}{r}{0.4\textwidth}
-	\centering
-	\includegraphics[width=0.4\textwidth]{img/sadasd.png}
-	\caption{Comparison of the cost of different system.\label{fig:aa}}
-	\vspace{-130pt}
-\end{wrapfigure}
+
 
 
 
  In recent years they are not  only used in space applications but they entered also the terrestrial PV market, in  concentrating  photovoltaic  (CPV)  systems which use  concentrating  optics  to  reduce  the  expensive  cell  area,  which  allows  competitive  LCOE.  Lately, many  companies  have  implemented  this  idea  with  a  variety  of  CPV  concepts  and  an  increasing number of installations worldwide.   
 
- 
+ \begin{wrapfigure}{r}{0.4\textwidth}
+	\centering
+	\includegraphics[width=0.4\textwidth]{img/sadasd.png}
+	\caption{Comparison of the cost of different system.\label{fig:aa}}
+\end{wrapfigure}
 Refering to the figure~\ref{fig:aa} it’s possible to make an hypothetical comparison between the costs of a CPV plant and the ones for a normal PV plant. If the complete plant costs are known, it’s quite easy to calculate the impact of different cell prices and efficiency combinations on the overall project. From the figure (which doesn’t use real but hypothetical data) it’s clear that the higher efficiency MJ cells will always result in a lower system cost (€/W) at sufficiently high concentration. This also means that the roadmap to higher efficiency will most likely drive CPV systems to keep increasing concentration.   
 
 Still, this kind of technology is expensive and that’s why also other approaches are being studied. For example another  approach, which  could  reduce  the cost  of  III-V  solar  cells,  is  to re-use  the  expensive semiconductor substrate. The resulting thin-film solar cells have high efficiencies and can be used in flexible modules. This approach is  seen  as  a  way  to  enable  the  use  of  III-V  solar  cells  in  flat-plate modules in building-integrated as well as rooftop applications in the near future. By the way III-V solar cells are also used in several niche applications such as laser power converters and thermophotovoltaics (TPV).
@@ -280,9 +282,9 @@ Still, this kind of technology is expensive and that’s why also other approach
 
 \section{Conclusion}
 
-The field of the photovoltaic research is moving extremely fast toward more efficient solar cell. As stated in this paper multijunction solar cells are, by now, the most efficient, but since they are still complex to produce in industrial quantity they won't land in the consumer market very soon.
+The field of the photovoltaic research is moving extremely fast toward more efficient solar cell. As stated in this paper multijunction solar cells are, by now, the most efficient but, since they are still complex to produce in industrial quantity, they won't land in the consumer market very soon.
 
-Major advancements are still possible, both in the design of the multijunction cell and in the production methodology.
+Major advancements are still possible, both in the design of the multijunction cell and in the production methodology. In fact research is developing both ways and the result are showing to be promising.
 
 \begin{thebibliography}{9}
 \bibitem{}

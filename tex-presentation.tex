@@ -77,7 +77,7 @@
 
 \section{Introduction}
 
-Nowadays solar cells (``photovoltaic'' devices) are regarded as one of the key technologies for sustainable energy supply. They can directly convert the incident solar radiation into electricity with no noise, pollution or moving parts. With the first practical photovoltaic devices demonstrated in the 1950s, solar cells have been used in situations where electrical power from the grid was unavailable, such as in remote area power systems, Earth orbiting satellites, consumer systems, calculators or wrist watches, remote radio-telephones and water pumping applications. The most commonly known and used solar cell is configured as a large-area p-n junction made of a semiconductor material. It is a robust, reliable and long lasting electronic device but it has theoretical and practical efficiency limits. Increasing the efficiency of a photovoltaic device is the aim of  many  research  projects, in fact a higher efficiency produces more electrical power on a smaller area, meaning that  less material is needed. Enlarging the number of cells of different semiconductor material, with increasing bandgaps, allows to exploit a larger part of the solar spectrum and reduce the thermalization losses. The aim of this paper is to give a general explanation of the operating principles of the solar cell focusing then on multijunction devices and comparing their characteristics in terms of efficiency and costs.
+Nowadays solar cells (``photovoltaic'' devices) are regarded as one of the key technologies for sustainable energy supply. They can directly convert the incident solar radiation into electricity with no noise, pollution or moving parts. With the first practical photovoltaic devices demonstrated in the 1950s, solar cells have been used in situations where electrical power from the grid was unavailable, such as in remote area power systems, Earth orbiting satellites, consumer systems, calculators or wrist watches, remote radio-telephones and water pumping applications. The most commonly known and used solar cell is configured as a large-area p-n junction made of a semiconductor material. It is a robust, reliable and long lasting electronic device but it has theoretical and practical efficiency limits. Increasing the efficiency of a photovoltaic device is the aim of  many  research  projects, in fact a higher efficiency produces more electrical power on a smaller area, meaning that less material is needed. Enlarging the number of cells of different semiconductor material, with increasing bandgaps, allows to exploit a larger part of the solar spectrum and reduce the thermalization losses. The aim of this paper is to give a general explanation of the operating principles of the solar cell focusing then on multijunction devices and comparing their characteristics in terms of efficiency and costs.
 
 \subsection{Cell Introduction}
 
@@ -138,9 +138,7 @@ I_{sc} &= \text{Short Circuit Current}
 %\end{wrapfigure}
 
 
-Graphically it is the area of the largest rectangle which will fit in the I-V curve. In the cell, the higher the voltage the higher the possible FF. However, large variations in open-circuit voltage within a given material system are uncommon. For example, at one sun $(1000 W/m^2)$ the difference between the maximum open-circuit voltage measured for a silicon laboratory device and a typical commercial solar cell is about 120 mV. 
-
-Their maximum fill factors are respectively of 0.85 and 0.83. However, the variation in maximum FF can be significant for solar cells made from different materials. For example, a GaAs (Gallium Arsenide) solar cell can have a FF of about 0.89. 
+Graphically it is the area of the largest rectangle which will fit in the I-V curve. In the cell, the higher the voltage the higher the possible FF. However, large variations in open-circuit voltage within a given material system are uncommon. For example, at one sun $(1000 W/m^2)$ the difference between the maximum open-circuit voltage measured for a silicon laboratory device and a typical commercial solar cell is about 120 mV. Their maximum fill factors are respectively of 0.85 and 0.83. However, the variation in maximum FF can be significant for solar cells made from different materials. For example, a GaAs (Gallium Arsenide) solar cell can have a FF of about 0.89. 
 
 The most commonly used parameter to compare the performance of solar cells is efficiency which is defined as the ratio of energy output from the solar cell to input energy from the sun. 
 
@@ -149,7 +147,7 @@ The most commonly used parameter to compare the performance of solar cells is ef
  \intertext{Where:}
  P_{in} &=  \text{Solar Input Energy}
 \end{align}
-In addition to the performance of the solar cell itself, the efficiency depends on the spectrum and intensity of the incident sunlight and on the temperature of the solar cell. Indeed $V_{OC}$ (the open-circuit voltage) is reduced linearly with increasing temperature. The magnitude of this reduction is inversely proportional to $V_{OC}$, hence cells with higher values of $V_{OC}$ suffer smaller reductions in voltage with increasing temperature.  
+In addition to the performance of the solar cell itself, the efficiency depends on the spectrum and intensity of the incident sunlight and on the temperature of the solar cell. Indeed $V_{OC}$ is reduced linearly with increasing temperature. The magnitude of this reduction is inversely proportional to $V_{OC}$, hence cells with higher values of $V_{OC}$ suffer smaller reductions in voltage with increasing temperature.  
 
 As regards to the spectrum, a photon need only have greater energy than the band gap in order to excite an electron. Much of the solar radiation reaching the Earth is composed of photons (blue and violet end of the spectrum) with energies greater than the band gap of silicon. These higher energy photons will be absorbed by the solar cell, but the difference in energy between these photons and the silicon band gap is converted into heat (via lattice vibrations \textendash ~called phonons) rather than into usable electrical energy.  
 
@@ -181,7 +179,8 @@ Opposed to the monolithic cell, the stacked cell are composed of several differe
 
 \section{Technical exploration of the multijunction cell}
 
-After a lot of iterations in their design, the modern multijunction cell is composed of different, but extremely similar, layers connected by a tunnel junction. Every single layer of the monolithic solar cell consists of:  
+After a lot of iterations in their design, the modern multijunction cell is composed of different, but extremely similar, layers connected by a tunnel junction. Every single layer of the monolithic solar cell consists of:
+
 \begin{enumerate}
 	\item Windows 
 	\item Emitter 
@@ -229,9 +228,7 @@ Between the multi-junction cells the most common structure has three layers.
 	%\vspace{-50pt}
 \end{wrapfigure}
 
-To choose the best combination of semiconductor materials for a triple junction, we look at the frequency specifications. Specifications which led to use Indium Gallium Phosphide (InGaP) for the top layer, Gallium Arsenide for the middle layer, and Germanium for the bottom one. 
-
-This InGaP/GaAs/Ge model is one of the best for triple-junction cell in terms of efficiency which, in concentrated sunlight, reaches values around 40\%. These materials in fact make the cell work with a larger range of photons, furthermore the thermalization loss is critically minimized. This structure presents a band gap for the top junction of 1.88eV, a middle junction gap around 1.4eV and a lower junction gap of 0.66eV. The top layer absorbs wavelengths from 300 nm to 670 nm, the middle layer consequently receives until 900 nm wavelength light while the Germanium layer works between 900 nm and 1800 nm. 
+To choose the best combination of semiconductor materials for a triple junction, we look at the frequency specifications. Specifications which led to use Indium Gallium Phosphide (InGaP) for the top layer, Gallium Arsenide for the middle layer, and Germanium for the bottom one. This InGaP/GaAs/Ge model is one of the best for triple-junction cell in terms of efficiency which, in concentrated sunlight, reaches values around 40\%. These materials in fact make the cell work with a larger range of photons, furthermore the thermalization loss is critically minimized. This structure presents a band gap for the top junction of 1.88eV, a middle junction gap around 1.4eV and a lower junction gap of 0.66eV. The top layer absorbs wavelengths from 300 nm to 670 nm, the middle layer consequently receives until 900 nm wavelength light while the Germanium layer works between 900 nm and 1800 nm. 
 
 Among the several structures used it is also possible to find materials such as Indium Gallium Nitride (InGaN) or Indium Phosphide (InP). The choice of these materials is preferable if specific band gaps are required. For the InGaN, it is possible to tune the band gap from 0.8eV to 3.5eV while for InP structures the gap can reach 1.35eV. Both these materials don't seem to be competitive in terms of cost effectiveness and for now just remain ideal materials.
 
